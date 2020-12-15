@@ -105,7 +105,7 @@
     height: 50%;
     background: rgba(255, 255, 255,.2)
 }
-.center div h2
+.center div h1
 {
     position: relative;
     margin:0;
@@ -114,13 +114,13 @@
     opacity: 0;
     color: #000000;
 }
-.center div:nth-child(1) h2
+.center div:nth-child(1) h1
 {
     animation: fadeText 0.5s linear forwards;
     animation-delay: 13s;
     font-size: 40px;
 }
-.center div:nth-child(3) h2
+.center div:nth-child(3) h1
 {
     animation: fadeText 0.5s linear forwards;
     animation-delay: 15s;
@@ -165,7 +165,7 @@
         visibility: hidden;
     }
 }
-.loading h2 
+.loading h1 
 {
     color: #000;
 }
